@@ -19,10 +19,10 @@ export default function Update() {
 
   const HandleDelete = (e) => {
     e.preventDefault()
-      dispatch(remove())
-    }
-    
-  
+    dispatch(remove())
+  }
+
+
   return (
     <div className="update">
       <div className="updateWrapper">
