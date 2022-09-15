@@ -4,12 +4,12 @@
   border-right: solid 1px lightgray;
 }
 
-.leftbarWrapper{
-    padding: 20px;
+.leftbarWrapper {
+  padding: 20px;
 }
 
-@media only screen and (max-width: 940px){
-  .leftbar{
+@media only screen and (max-width: 940px) {
+  .leftbar {
     flex: 1;
   }
 }
