@@ -5,7 +5,7 @@ import "./rightbar.css";
 import { useSelector } from "react-redux";
 
 export default function Rightbar() {
-  const name = useSelector((state)=>state.user.name)
+  const name = useSelector((state) => state.user.name)
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
